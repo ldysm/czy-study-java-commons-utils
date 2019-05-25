@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="com.github.andyczy.java.excel" />
+        <module name="czy-nexus-commons-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="czy-nexus-commons-utils" target="1.5" />
       <module name="java-excel-utils" target="1.5" />
     </bytecodeTargetLevel>
   </component>
